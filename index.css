@@ -13,5 +13,9 @@ h5 {
 }
 
 h2{
-	font-family: 'Merriweather', serif;;
+	font-family: 'Merriweather', serif;
+}
+
+footer {
+	background-color: #008F7A; 
 }

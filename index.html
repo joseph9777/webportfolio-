@@ -100,17 +100,67 @@
 				</div>
 
 	<!-- Contact Me -->
-			<div class= "container-fluid bg-dark text-light">
-				<h2 class = "text-center">TOOLS</h2>
-				<div>
-					<h3>Front End</h3>
-					<h3>MERN</h3>
-					<h3>Other Tools</h3>	
-				</div>
-			</div>
+			
+	<!-- Start of form -->
+	<div class = "container-fluid bg-dark text-light text-center p-5">
+	    <h2 class = "container-fluid pt-2">Contact Me</h2>
+	     <div class = "container-fluid bg-light text-dark d-flex justify-content-center col-lg-4 col-md-8 col-sm-12">
+	    <form>
+	      <div class="form-group">
+	        <label for="exampleInputEmail1">Name</label>
+	        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+	      </div>
+	      <div class="form-group">
+	        <label for="exampleInputPassword1">Email Address</label>
+	        <input type="password" class="form-control" id="exampleInputPassword1">
+	      </div>
+	       <div class="form-group">
+	        <label for="exampleInputPassword1">Contact Number</label>
+	        <input type="password" class="form-control" id="exampleInputPassword1">
+	      </div>
+	      <div>
+	        <label>Concern</label><br/>
+	        <select name="concern">
+	          <option value="quotation">Quotation</option>
+	          <option value="quotation1">Quotation 1</option>
+	          <option value="fullendprogramming">Quotation 2</option>
+	        </select>
+	      </div>
+	      <div>
+	        <label for = "message">Message</label><br/>
+	        <textarea name="message" rows = "3" id = "message"></textarea>
+	      </div>
+	      
+
+	      <button type="send email" class="btn btn-dark"  data-toggle="modal" data-target="#exampleModal">Send Email</button>
+	    </form>
+
+	  </div>
+	
+	  </div>
+	</div>
+	<div class="modal" tabindex="-1" id="exampleModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title">Thank you for contacting us</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p>Message Sent Successfully</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
 	<!-- Footer -->
-		<footer class = "sticky-bottom bg-success text-light text-center">
+		<footer class = "sticky-bottom text-light text-center">
 			<span>Joseph Lanestosa</span>
 			<span>|</span>
 			<span>Graphics Graduate</span>
